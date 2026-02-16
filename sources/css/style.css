@@ -36,11 +36,13 @@
 }
 
 .cartas-prod{
-    background-color: red;
+    position:relative;
+    background-color: #4e4e4e;
+    border-radius: 20px;
     width: 420px;
     height: 290px;
-    border-radius: 20px;
     margin: 18px;
+      overflow: visible; /* importante */
 }
 
 .tres-cartas{
@@ -50,7 +52,6 @@
 #para-que{  
     font-weight: 700;
     font-size: 20px;
-    margin-top: 225px;
 }
 .servicios-generales{
     padding-top: 180px;
@@ -76,4 +77,27 @@
 
 #icono-social{
     font-size: 20px;
+}
+
+.imagenesx {
+    position: absolute;
+    width: 280px; /* ajusta según diseño */
+    height: auto;
+    top: -60px;   /* sale hacia arriba */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.imagen-mid {
+    position: absolute;
+    width: 280px; /* ajusta según diseño */
+    height: auto;
+    top: -70px;   /* sale hacia arriba */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#para-que{
+    margin-top: 230px;
+    color: white;
 }
