@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.menu{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.text-g502{
+    margin-top: 180px;
+}
+
+.contenedor-logitech{
+    position: absolute;
+    top: 60px;
+    left: 700px;
+}
+
+.img-logi{
+    margin-top: 130px;
+    transform: scale(1.1);
+}
+
+.txt-products{
+    margin-top: 400px;
+}
+
+.cartas-prod{
+    background-color: red;
+    width: 420px;
+    height: 290px;
+    border-radius: 20px;
+    margin: 18px;
+}
+
+.tres-cartas{
+    justify-content: center;
+}
+
+#para-que{  
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 225px;
+}
+.servicios-generales{
+    padding-top: 180px;
+}
+
+#cuatro-servicios{
+    background-color: blueviolet;
+    width: 600px;
+    height: 220px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.dos-servicios{
+    justify-content: center;
+}
+
+
+.miembros{
+    padding-top: 180px;
+}
+
+#icono-social{
+    font-size: 20px;
+}
