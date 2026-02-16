@@ -58,10 +58,9 @@
 }
 
 #cuatro-servicios{
-    background-color: blueviolet;
+    background-color: #4e4e4e;
     width: 600px;
     height: 220px;
-    border: 1px solid black;
     margin: 20px;
     border-radius: 30px;
 }
@@ -79,9 +78,9 @@
     font-size: 20px;
 }
 
-.imagenesx {
+.imagen-start {
     position: absolute;
-    width: 280px; /* ajusta según diseño */
+    width: 350px; /* ajusta según diseño */
     height: auto;
     top: -60px;   /* sale hacia arriba */
     left: 50%;
@@ -90,9 +89,18 @@
 
 .imagen-mid {
     position: absolute;
-    width: 280px; /* ajusta según diseño */
+    width: 350px; /* ajusta según diseño */
     height: auto;
-    top: -70px;   /* sale hacia arriba */
+    top: -109px;   /* sale hacia arriba */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.imagen-end {
+    position: absolute;
+    width: 350px; /* ajusta según diseño */
+    height: auto;
+    top: -75px;   /* sale hacia arriba */
     left: 50%;
     transform: translateX(-50%);
 }
@@ -100,4 +108,37 @@
 #para-que{
     margin-top: 230px;
     color: white;
+}
+
+/* SERVICIOS */
+
+.contenedor-servicio{
+    position: relative;
+}
+
+.img-svg{
+    position: absolute;
+    width: 180px;
+    height: auto;
+    top: -40px;
+    left: 13px;
+    
+}
+#blancos{
+    color: white;
+}
+
+.contenedores-conjuntos{
+    margin-top: 25px;
+    text-align: left;
+    align-items: start;
+}
+
+#pesada{
+    font-weight: 700;
+}
+
+.azules-bold{
+     font-size: 70px;
+    font-weight: 800;
 }
