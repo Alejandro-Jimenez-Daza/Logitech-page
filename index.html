@@ -18,475 +18,340 @@
 <body class="fondo">
 
     <!-- NAVBAR -->
-    <div class="fondo">
-        <div class="container navbar">
+    <nav class="fondo">
+        <div class="container navbar flex-wrap gap-3">
 
-            <h4>
+            <h4 class="mb-0">
                 <a href="#">techgear</a>
             </h4>
 
-            <div class="menu">
+            <!-- Menú: en mobile se apila y centra -->
+            <div class="menu flex-wrap justify-content-center gap-3">
                 <a>HOME</a>
                 <a>PRODUCTS</a>
                 <a>SERVICES</a>
                 <a>CONTACTS</a>
                 <a>MEMBERS</a>
-                <a class="btn btn-outline-info ms-3 btn-sign">SIGN IN</a>
+                <a class="btn btn-outline-info btn-sign">SIGN IN</a>
             </div>
 
         </div>
-    </div>
+    </nav>
+
 
     <!-- HERO -->
     <div class="general">
+        <div class="container py-5">
+            <div class="row align-items-center g-4">
 
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-6 text-g502">
-
+                <!-- Texto -->
+                <div class="col-12 col-lg-6 text-g502">
                     <h1 class="text-footer mb-4" id="pesada">G502 HERO WIRELESS</h1>
-
-                    <h4 id="color-gris">Logitechs high performance wireless <br> gaming mouse</h4>
-
-
+                    <h4 id="color-gris">Logitechs high performance wireless gaming mouse</h4>
                     <p class="text-footer mt-4">
-                        The Razer Ouroboros is outfitted with the most advanced & configurable <br>
+                        The Razer Ouroboros is outfitted with the most advanced & configurable
                         sensor yet, the all-new 8200dpi 4G laser sensor.
                     </p>
-
                     <h4 class="text-info mt-4">USD 99.99</h4>
-
-                    <div class="mt-4">
-
+                    <div class="mt-4 d-flex flex-wrap gap-2">
                         <button class="btn btn-info">
                             <i class="bi bi-cart-plus"></i> ADD TO CART
                         </button>
-
-                        <button class="btn btn-outline-info ms-2">
+                        <button class="btn btn-outline-info">
                             <i class="bi bi-info-circle"></i> MORE DETAILS
                         </button>
-
                     </div>
-
                 </div>
 
-
-                <div class="col-6 contenedor-logitech">
-                    <img src="sources/img/g502.png" class="w-100 img-logi">
+                <!-- Imagen hero -->
+                <div class="col-12 col-lg-6 text-center">
+                    <img src="sources/img/g502.png" class="img-fluid img-logi">
                 </div>
 
             </div>
-
         </div>
-
     </div>
 
 
     <!-- PRODUCTS -->
-    <div>
-
+    <div class="py-5">
         <div class="container text-center">
 
             <h1 class="txt-products text-info azules-bold">PRODUCTS</h1>
-
             <div class="contenedor-bold-blanco">
                 <p id="grosor-blanco">Which type of gear are you looking for?</p>
             </div>
-
             <a href="#" class="text-info text-decoration-none">
                 View more <i class="bi bi-arrow-right"></i>
             </a>
 
+            <div class="row justify-content-center mt-5 g-5" id="espaciado-medio">
 
-            <div class="tres-cartas row" id="espaciado-medio">
-
-                <div class="cartas-prod col">
-
-                    <img src="sources/img/3-productos/maing.png" class="imagen-start click-uno" id="tipo-uno">
-
-                    <p id="para-que">Gaming</p>
-
+                <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                    <div class="cartas-prod w-100">
+                        <img src="sources/img/3-productos/maing.png" class="imagen-start click-uno" id="tipo-uno">
+                        <p id="para-que">Gaming</p>
+                    </div>
                 </div>
 
-
-                <div class="cartas-prod col">
-
-                    <img src="sources/img/3-productos/ergo.png" class="imagen-mid click-dos" id="tipo-dos">
-
-                    <p id="para-que">Graphic Design</p>
-
+                <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                    <div class="cartas-prod w-100">
+                        <img src="sources/img/3-productos/ergo.png" class="imagen-mid click-dos" id="tipo-dos">
+                        <p id="para-que">Graphic Design</p>
+                    </div>
                 </div>
 
-
-                <div class="cartas-prod col">
-
-                    <img src="sources/img/3-productos/ofi.webp" class="imagen-end click-tres" id="tipo-tres">
-
-                    <p id="para-que">Office & Others</p>
-
+                <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                    <div class="cartas-prod w-100">
+                        <img src="sources/img/3-productos/ofi.webp" class="imagen-end click-tres" id="tipo-tres">
+                        <p id="para-que">Office & Others</p>
+                    </div>
                 </div>
 
             </div>
-
         </div>
-
     </div>
 
 
     <!-- SERVICES -->
-    <div>
-
+    <div class="py-5">
         <div class="container text-center servicios-generales">
 
             <h1 class="text-info azules-bold">SERVICES</h1>
-
             <div class="contenedor-bold-blanco">
                 <p id="grosor-blanco">We provide more than high-tech products!</p>
             </div>
-
             <a href="#" class="text-info text-decoration-none">
                 View more <i class="bi bi-arrow-right"></i>
             </a>
 
+            <div class="row justify-content-center g-4 mt-4">
 
-            <div class="row dos-servicios mt-4">
-
-
-                <div class="col-6 contenedor-servicio" id="cuatro-servicios">
-
-                    <div class="row">
-
-                        <div class="col-4">
-                            <img src="sources/img/4-productos/3.svg" class="img-svg">
+                <!-- Servicio 1 -->
+                <div class="col-12 col-md-6">
+                    <div class="contenedor-servicio" id="cuatro-servicios">
+                        <div class="row align-items-center h-100 p-3">
+                            <div class="col-4">
+                                <img src="sources/img/4-productos/3.svg" class="img-svg position-relative top-0 start-0 w-75">
+                            </div>
+                            <div class="col contenedores-conjuntos">
+                                <h3 id="blancos">Lifetime Guarantee</h3>
+                                <p id="blancos">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
                         </div>
-
-                        <div class="col contenedores-conjuntos">
-
-                            <h3 id="blancos">Lifetime Guarantee</h3>
-
-                            <p id="blancos">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
-
-                        </div>
-
                     </div>
-
                 </div>
 
-
-                <div class="col-6 contenedor-servicio" id="cuatro-servicios">
-
-                    <div class="row">
-
-                        <div class="col-4">
-                            <img src="sources/img/4-productos/2.svg" class="img-svg">
+                <!-- Servicio 2 -->
+                <div class="col-12 col-md-6">
+                    <div class="contenedor-servicio" id="cuatro-servicios">
+                        <div class="row align-items-center h-100 p-3">
+                            <div class="col-4">
+                                <img src="sources/img/4-productos/2.svg" class="img-svg position-relative top-0 start-0 w-75">
+                            </div>
+                            <div class="col contenedores-conjuntos">
+                                <h3 id="blancos">Good Price</h3>
+                                <p id="blancos">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
                         </div>
-
-                        <div class="col contenedores-conjuntos">
-
-                            <h3 id="blancos">Good Price</h3>
-
-                            <p id="blancos">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
-
-                        </div>
-
                     </div>
-
                 </div>
 
-            </div>
-
-
-
-            <div class="row dos-servicios mt-4">
-
-
-                <div class="col-6 contenedor-servicio" id="cuatro-servicios">
-
-                    <div class="row">
-
-                        <div class="col-4">
-                            <img src="sources/img/4-productos/1.svg" class="img-svg">
+                <!-- Servicio 3 -->
+                <div class="col-12 col-md-6">
+                    <div class="contenedor-servicio" id="cuatro-servicios">
+                        <div class="row align-items-center h-100 p-3">
+                            <div class="col-4">
+                                <img src="sources/img/4-productos/1.svg" class="img-svg position-relative top-0 start-0 w-75">
+                            </div>
+                            <div class="col contenedores-conjuntos">
+                                <h3 id="blancos">Free Software Updates</h3>
+                                <p id="blancos">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
                         </div>
-
-                        <div class="col contenedores-conjuntos">
-
-                            <h3 id="blancos">Free Software Updates</h3>
-
-                            <p id="blancos">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
-
-                        </div>
-
                     </div>
-
                 </div>
 
-
-                <div class="col-6 contenedor-servicio" id="cuatro-servicios">
-
-                    <div class="row">
-
-                        <div class="col-4">
-                            <img src="sources/img/4-productos/4.svg" class="img-svg">
+                <!-- Servicio 4 -->
+                <div class="col-12 col-md-6">
+                    <div class="contenedor-servicio" id="cuatro-servicios">
+                        <div class="row align-items-center h-100 p-3">
+                            <div class="col-4">
+                                <img src="sources/img/4-productos/4.svg" class="img-svg position-relative top-0 start-0 w-75">
+                            </div>
+                            <div class="col contenedores-conjuntos">
+                                <h3 id="blancos">24/7 Support</h3>
+                                <p id="blancos">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
                         </div>
-
-                        <div class="col contenedores-conjuntos">
-
-                            <h3 id="blancos">24/7 Support</h3>
-
-                            <p id="blancos">
-                                Lorem ipsum dolor sit amet consectetur.
-                            </p>
-
-                        </div>
-
                     </div>
-
                 </div>
 
             </div>
-
         </div>
-
     </div>
 
 
     <!-- MEMBERS -->
-    <div>
-
+    <div class="py-5">
         <div class="container miembros text-center">
 
             <h1 class="text-info azules-bold">MEMBERS</h1>
-
             <div class="contenedor-bold-blanco">
                 <p id="grosor-blanco">We proudly introduce our powerful members!</p>
             </div>
-
             <a href="#" class="text-decoration-none text-info">
-                View more <i class="bi bi-arrow-right "></i>
+                View more <i class="bi bi-arrow-right"></i>
             </a>
 
+            <div class="row justify-content-center align-items-center g-4 mt-3">
 
-            <div class="container-fluid contenedor-members">
-
-                <div class="card-member">
-                    <img class="img-fluid" src="sources/img/5-miembros/1.png" alt="">
+                <div class="col-6 col-md-3">
+                    <div class="card-member">
+                        <img class="img-fluid" src="sources/img/5-miembros/1.png" alt="">
+                    </div>
                 </div>
 
-                <div class="img-fluid card-member">
-                    <img class="img-fluid" src="sources/img/5-miembros/3.png" alt="">
+                <div class="col-6 col-md-3">
+                    <div class="card-member">
+                        <img class="img-fluid" src="sources/img/5-miembros/3.png" alt="">
+                    </div>
                 </div>
 
-                <div class="img-fluid card-member">
-                    <img class="img-fluid" src="sources/img/5-miembros/image.png" alt="">
+                <div class="col-6 col-md-3">
+                    <div class="card-member">
+                        <img class="img-fluid" src="sources/img/5-miembros/image.png" alt="">
+                    </div>
                 </div>
 
-                <div class="img-fluid card-member">
-                    <img class="img-fluid" src="sources/img/5-miembros/4.png" alt="">
+                <div class="col-6 col-md-3">
+                    <div class="card-member">
+                        <img class="img-fluid" src="sources/img/5-miembros/4.png" alt="">
+                    </div>
                 </div>
 
             </div>
-
         </div>
-
     </div>
 
 
     <!-- CONTACTS -->
-    <div>
-
+    <div class="py-5">
         <div class="container">
 
             <div class="text-center contactos-conjunto">
-
                 <h1 class="text-info azules-bold">CONTACTS</h1>
-
                 <div class="contenedor-bold-blanco">
                     <p id="grosor-blanco">Some ways for you to contact us</p>
                 </div>
-
                 <a href="#" class="text-decoration-none text-info">
                     View more <i class="bi bi-arrow-right"></i>
                 </a>
-
             </div>
 
+            <div class="row mt-4 g-4">
 
-            <div class="row mt-4">
-
-                <div class="col-3">
-
+                <!-- Info de contacto -->
+                <div class="col-12 col-md-4 col-lg-3">
                     <p class="tech-contact">techgear</p>
-
                     <p class="pt-4" id="canales-bold">Direct Channels</p>
+                    <p id="info-contact"><i class="bi bi-telephone-inbound text-info"></i> +57 123456789</p>
+                    <p id="info-contact"><i class="bi bi-envelope text-info"></i> supportstechgear.co</p>
 
-                    <div class="">
-                        <p id="info-contact"><i class="bi bi-telephone-inbound text-info"></i> +57 123456789</p>
-
-                        <p id="info-contact"><i class="bi bi-envelope text-info"></i> supportstechgear.co</p>
-
-                    </div>
-
-
-                    <div class="texto-social mt-5">
+                    <div class="mt-5">
                         <p id="canales-bold">Social Media</p>
+                        <div class="hijos-de d-flex gap-3">
+                            <a href=""><i class="bi bi-facebook text-info"></i></a>
+                            <a href=""><i class="bi bi-instagram text-info"></i></a>
+                            <a href=""><i class="bi bi-twitter-x text-info"></i></a>
+                            <a href=""><i class="bi bi-telegram text-info"></i></a>
+                            <a href=""><i class="bi bi-github text-info"></i></a>
+                        </div>
                     </div>
-                    <div class="container p-0 hijos-de">
-                        <a href=""><i class="bi bi-facebook text-info"></i></a>
-                        <a href=""><i class="bi bi-instagram ms-4 text-info"></i></a>
-                        <a href=""><i class="bi bi-twitter-x ms-4 text-info"></i></a>
-                        <a href=""><i class="bi bi-telegram ms-4 text-info"></i></a>
-                        <a href=""><i class="bi bi-github ms-4 text-info"></i></a>
-                    </div>
-
                 </div>
 
-
-                <div class="col-9 py-4">
-
+                <!-- Formulario -->
+                <div class="col-12 col-md-8 col-lg-9 py-4">
                     <form>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8">
 
-                        <div class="container-fluid">
+                                <p class="mb-3 text-start" id="text-white">Feel free to send us your message</p>
 
-                            <!-- Columna central -->
-                            <div class="row justify-content-center">
-
-                                <div class="col-8">
-
-
-                                    <!-- TEXTO -->
-                                    <p class="mb-3 text-start" id="text-white">
-                                        Feel free to send us your message
-                                    </p>
-
-
-                                    <!-- NOMBRE / EMAIL -->
-                                    <div class="row g-3">
-
-                                        <div class="col-6">
-                                            <input type="text" class="form-control" placeholder="Your name"
-                                                id="input-color">
-                                        </div>
-
-                                        <div class="col-6">
-                                            <input type="email" class="form-control" placeholder="Your email"
-                                                id="input-color">
-                                        </div>
-
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control" placeholder="Your name" id="input-color">
                                     </div>
-
-
-                                    <!-- SUBJECT -->
-                                    <div class="mt-3">
-                                        <input type="text" class="form-control" placeholder="Subject" id="input-color">
+                                    <div class="col-12 col-sm-6">
+                                        <input type="email" class="form-control" placeholder="Your email" id="input-color">
                                     </div>
+                                </div>
 
+                                <div class="mt-3">
+                                    <input type="text" class="form-control" placeholder="Subject" id="input-color">
+                                </div>
 
-                                    <!-- MESSAGE -->
-                                    <div class="mt-3">
-                                        <textarea class="form-control" rows="6" placeholder="Message"
-                                            id="input-color"></textarea>
-                                    </div>
+                                <div class="mt-3">
+                                    <textarea class="form-control" rows="6" placeholder="Message" id="input-color"></textarea>
+                                </div>
 
-
-                                    <!-- BUTTON -->
-                                    <div class="text-center mt-4">
-
-                                        <button type="submit" class="btn btn-info text-white" id="btn-submit">
-                                            SUBMIT
-                                        </button>
-
-                                    </div>
-
-
+                                <div class="text-center mt-4">
+                                    <button type="submit" class="btn btn-info text-white" id="btn-submit">SUBMIT</button>
                                 </div>
 
                             </div>
-
                         </div>
-
                     </form>
-
                 </div>
 
             </div>
-
         </div>
-
     </div>
 
 
     <!-- FOOTER -->
     <div class="footer-section">
-
         <div class="container contenedor-footer">
 
-            <div class="row footer text-center text-footer">
+            <div class="row g-4 text-footer">
 
-
-                <div class="col-3 alinear-txt-izq">
-
+                <div class="col-6 col-md-3 alinear-txt-izq">
                     <h3 id="peso-footer">PRODUCTS</h3>
-
                     <a>Gaming</a>
                     <a>Graphic Design</a>
                     <a>Office</a>
                     <a>Family</a>
                     <a>Personalized</a>
-
                 </div>
 
-
-                <div class="col-3 alinear-txt-izq">
-
+                <div class="col-6 col-md-3 alinear-txt-izq">
                     <h3 id="peso-footer">SHOWROOMS</h3>
-
                     <a>Showroom Washington, D.C.</a>
                     <a>Showroom New York City</a>
                     <a>Showroom San Francisco</a>
                     <a>Showroom Houston</a>
-
                 </div>
 
-
-                <div class="col-3 alinear-txt-izq">
-
+                <div class="col-6 col-md-3 alinear-txt-izq">
                     <h3 id="peso-footer">FAMILY MEMBERS</h3>
-
                     <a>Electro Softwares</a>
                     <a>Tera Tech Lab</a>
                     <a>TC Predator Gaming</a>
                     <a>SpacePlay</a>
                     <a>V-poweration</a>
                     <a>AX3 AI System</a>
-
-
-
                 </div>
 
-
-                <div class="col-3 alinear-txt-izq">
-
+                <div class="col-6 col-md-3 alinear-txt-izq">
                     <h3 id="peso-footer">HELP</h3>
-
                     <a>FAQs</a>
                     <a>Terms of use</a>
                     <a>Privacy Policy</a>
-
                 </div>
 
             </div>
 
-
             <hr class="mt-5">
-
 
             <footer class="mt-4 text-center pb-4">
                 COPYRIGHT © 2020 TECHGEAR INC
@@ -494,8 +359,6 @@
 
         </div>
     </div>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
