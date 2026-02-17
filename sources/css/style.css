@@ -1,3 +1,7 @@
+.fondo{
+    background-color: #222222;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -11,6 +15,9 @@
 }
 
 .menu{
+    /* font-weight: 800; */
+    font-size: 19px;
+    color: #686868;
     display: flex;
     gap: 60px;
     align-items: center;
@@ -32,7 +39,7 @@
 }
 
 .txt-products{
-    margin-top: 400px;
+    margin-top: 9em;
 }
 
 .cartas-prod{
@@ -146,6 +153,7 @@
 }
 
 .alinear-txt-izq{
+    
     text-align: left;
 }
 
@@ -177,7 +185,7 @@
 /* CONTACS Y FORMULARIO DE CONTACTO */
 
 .contactos-conjunto{
-    margin-top: 130px;
+    margin-top: 90px;
 }
 
 .hijos-de{
@@ -214,4 +222,56 @@ font-size: 50px;
 #peso-footer{
     font-size: 20px;
     font-weight: 750;
+}
+
+#color-gris{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #686868;
+}
+
+.text-footer a {
+    display: block;
+    margin: 40px 0;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.text-footer a:hover {
+    transform: translateX(3px);
+}
+
+hr{
+    color: #ffffff;
+}
+
+footer{
+    padding-top: 30px;
+    margin-bottom: 80px;
+    color: #686868;
+}
+
+ .contenedor-members{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 500px;
+ }
+
+.card-member{
+    /* max-width: 250px; */
+    margin: 30px;
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+.card-member img {
+    width: 110%;
+    height: 250px;
+    object-fit: contain;
 }
