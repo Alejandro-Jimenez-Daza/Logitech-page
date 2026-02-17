@@ -54,6 +54,7 @@
     font-size: 20px;
 }
 .servicios-generales{
+    position: relative;
     padding-top: 180px;
 }
 
@@ -139,6 +140,78 @@
 }
 
 .azules-bold{
-     font-size: 70px;
+    font-size: 70px;
     font-weight: 800;
+    opacity: 0.5;
+}
+
+.alinear-txt-izq{
+    text-align: left;
+}
+
+.contenedor-bold-blanco{
+    position: relative;
+     overflow: visible; /* importante */
+}
+
+#grosor-blanco{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -110%);
+
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+
+    margin: 0;
+}
+
+#espaciado-medio{
+    margin-top: 90px;
+    margin-right: 0;
+}
+
+/* CONTACS Y FORMULARIO DE CONTACTO */
+
+.contactos-conjunto{
+    margin-top: 130px;
+}
+
+.hijos-de{
+    font-size: 30px;
+}
+
+.tech-contact{
+color: white;
+font-weight: 800;
+font-size: 50px;
+}
+
+#canales-bold{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#info-contact{
+    color: white;
+    font-size: 20px;
+}
+
+#text-white{
+    color: white;
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.text-footer{
+    color: white;
+}
+
+#peso-footer{
+    font-size: 20px;
+    font-weight: 750;
 }

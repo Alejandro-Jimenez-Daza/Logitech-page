@@ -5,361 +5,489 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce</title>
+
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <link rel="stylesheet" href="sources/css/style.css">
 </head>
 
-<body>
-    <!-- barra de navegacion y logo -->
-    <div class="bg-danger navbar">
-        <!-- logo -->
-        <h4 class="ms-5">
-            <a href="#" class="ms-5">techgear</a>
-        </h4>
+<body class="bg-secondary">
 
-        <div class="menu">
-            <!-- links -->
-            <a>HOME</a>
-            <a>PRODUCTS</a>
-            <a>SERVICES</a>
-            <a>CONTACTS</a>
-            <a>MEMBERS</a>
-            <a class="btn btn-outline-primary me-5">SING IN</a>
+    <!-- NAVBAR -->
+    <div class="bg-danger">
+        <div class="container navbar">
+
+            <h4>
+                <a href="#" class="ms-3">techgear</a>
+            </h4>
+
+            <div class="menu">
+                <a>HOME</a>
+                <a>PRODUCTS</a>
+                <a>SERVICES</a>
+                <a>CONTACTS</a>
+                <a>MEMBERS</a>
+                <a class="btn btn-outline-primary ms-3">SING IN</a>
+            </div>
+
         </div>
     </div>
 
-    <!-- primer rectangulo con producto en texto y modelo de imagen grande abajo del navbar -->
+    <!-- HERO -->
     <div class="general">
-        <div class="container">
-            <div class="row">
-                <!-- Lado derecho -->
-                <div class="col-6 text-g502">
-                    <h1 id="pesada">G502 HERO WIRELESS</h1>
-                    <h4 class="">Logitechs high performance wireless</h4>
-                    <!-- ver por que queda un espacio entre medio -->
-                    <h4 class="">gaming mouse</h4>
 
-                    <!-- texto pequeno -->
-                    <p>The Razer Ouroboros is outfitted with the most advanced & configurable <br>
-                        sensor yet, the all-new 8200dpi 4G laser sensor. It tracks so precisely, you <br>
-                        always hit targets exactly where you need to.
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-6 text-g502">
+
+                    <h1 id="pesada">G502 HERO WIRELESS</h1>
+
+                    <h4>Logitechs high performance wireless</h4>
+                    <h4>gaming mouse</h4>
+
+                    <p>
+                        The Razer Ouroboros is outfitted with the most advanced & configurable <br>
+                        sensor yet, the all-new 8200dpi 4G laser sensor.
                     </p>
 
-                    <!-- precio -->
                     <h4 class="text-primary mt-4">USD 99.99</h4>
 
-                    <!-- dos bototnes -->
-                    <div class="container m-0 p-0 mt-4">
+                    <div class="mt-4">
+
                         <button class="btn btn-primary">
-                            <i class="bi bi-cart-plus"></i>
-                            ADD TO CART
+                            <i class="bi bi-cart-plus"></i> ADD TO CART
                         </button>
+
                         <button class="btn btn-outline-primary ms-2">
-                            <i class="bi bi-info-circle"></i>
-                            MORE DETAILS
+                            <i class="bi bi-info-circle"></i> MORE DETAILS
                         </button>
+
                     </div>
+
                 </div>
 
-                <!-- Lado derecho-->
-                <!-- imagen del mouse -->
+
                 <div class="col-6 contenedor-logitech">
-                    <!-- esta es otra forma pero mas pro, la q empleo es de menos codigo:
-                    <div class="col-6 position-relative overflow-visible">
-                        <img src="sources/g502.png" class="position-absolute end-0 top-50 translate-middle-y"
-                            style="width: 130%;">
-                    </div> -->
                     <img src="sources/img/g502.png" class="w-100 img-logi">
                 </div>
+
             </div>
+
         </div>
 
-        <!-- Segundo rectangulo: tres productos centrados en card sobrepuestos-->
-        <div class="text-center bg-success">
+    </div>
+
+
+    <!-- PRODUCTS -->
+    <div class="bg-success">
+
+        <div class="container text-center">
 
             <h1 class="txt-products text-info azules-bold">PRODUCTS</h1>
 
-            <p>which type of gear are you looking for?</p>
+            <div class="contenedor-bold-blanco">
+                <p id="grosor-blanco">Which type of gear are you looking for?</p>
+            </div>
 
-            <a href="#">
-                View more
-                <i class="bi bi-arrow-right"></i>
+            <a href="#" class="text-decoration-none">
+                View more <i class="bi bi-arrow-right"></i>
             </a>
 
-            <!-- 3card de los 3 productos -->
-            <div class="tres-cartas row m-0">
 
-                <div class="cartas-prod">
-                    <img src="sources/img/3-productos/maing.png" class="imagen-start click-uno" alt="" id="tipo-uno">
+            <div class="tres-cartas row" id="espaciado-medio">
+
+                <div class="cartas-prod col">
+
+                    <img src="sources/img/3-productos/maing.png" class="imagen-start click-uno" id="tipo-uno">
+
                     <p id="para-que">Gaming</p>
+
                 </div>
 
-                <div class="cartas-prod tipo">
-                    <img src="sources/img/3-productos/ergo.png" class="imagen-mid click-dos" alt="" id="tipo-dos">
+
+                <div class="cartas-prod col">
+
+                    <img src="sources/img/3-productos/ergo.png" class="imagen-mid click-dos" id="tipo-dos">
+
                     <p id="para-que">Graphic Design</p>
+
                 </div>
 
-                <div class="cartas-prod tipo">
-                    <img src="sources/img/3-productos/ofi.webp" class="imagen-end click-tres" alt="" id="tipo-tres">
+
+                <div class="cartas-prod col">
+
+                    <img src="sources/img/3-productos/ofi.webp" class="imagen-end click-tres" id="tipo-tres">
+
                     <p id="para-que">Office & Others</p>
+
                 </div>
 
             </div>
 
         </div>
-
-        <div class="servicios-generales text-center">
-            <!-- el titulo sobrepuesto azul -->
-            <h1 class="text-info azules-bold">SERVICES</h1>
-            <p>We provide more than high-tech products!</p>
-            <a href="#">
-                View more
-                <i class="bi bi-arrow-right"></i>
-            </a>
-
-            <!-- cuatro puntos -->
-            <div class="row m-0 dos-servicios">
-
-                <div class="col-6 p-0 contenedor-servicio" id="cuatro-servicios">
-                    <div class="row m-0 p-0">
-                        <div class="col-4"><img src="sources/img/4-productos/3.svg" alt="" class="img-svg">
-                        </div>
-                        <div class="col contenedores-conjuntos">
-                            <h3 id="blancos">Lifetime Guarantee</h3>
-                            <p id="blancos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fugiat
-                                odio?
-                                Blanditiis quidem quisquam nulla, ad non accusamus at esse nobis facere quod numquam
-                                rerum nisi alias maxime quaerat beatae.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 p-0 contenedor-servicio" id="cuatro-servicios">
-                    <div class="row m-0 p-0">
-                        <div class="col-4"><img src="sources/img/4-productos/2.svg" alt="" class="img-svg">
-                        </div>
-                        <div class="col contenedores-conjuntos">
-                            <h3 id="blancos">Good Price</h3>
-                            <p id="blancos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fugiat
-                                odio?
-                                Blanditiis quidem quisquam nulla, ad non accusamus at esse nobis facere quod numquam
-                                rerum nisi alias maxime quaerat beatae.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row m-0 dos-servicios">
-
-                <div class="col-6 p-0 contenedor-servicio" id="cuatro-servicios">
-                    <div class="row m-0 p-0">
-                        <div class="col-4"><img src="sources/img/4-productos/1.svg" alt="" class="img-svg">
-                        </div>
-                        <div class="col contenedores-conjuntos">
-                            <h3 id="blancos">Free Software Updates</h3>
-                            <p id="blancos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fugiat
-                                odio?
-                                Blanditiis quidem quisquam nulla, ad non accusamus at esse nobis facere quod numquam
-                                rerum nisi alias maxime quaerat beatae.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 p-0 contenedor-servicio" id="cuatro-servicios">
-                    <div class="row m-0 p-0">
-                        <div class="col-4"><img src="sources/img/4-productos/4.svg" alt="" class="img-svg">
-                        </div>
-                        <div class="col contenedores-conjuntos">
-                            <h3 id="blancos">24/7 Support</h3>
-                            <p id="blancos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, fugiat
-                                odio?
-                                Blanditiis quidem quisquam nulla, ad non accusamus at esse nobis facere quod numquam
-                                rerum nisi alias maxime quaerat beatae.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- MIEMBROS -->
-        <div class="miembros text-center">
-
-            <!-- el titulo sobrepuesto azul -->
-            <h1 class="text-info azules-bold">MEMBERS</h1>
-            <p>We proudly introduce our powerful members!</p>
-            <a href="#">
-                View more
-                <i class="bi bi-arrow-right"></i>
-            </a>
-
-
-            <!-- slider -->
-
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="sources/img/pro-player-predator-esport-gaming-logo-vector.jpg" alt="..." class="w-25">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="sources/img/1200x630wa.png" class="d-block w-25" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="sources/img/tt.png" class="d-block w-25" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-
-        </div>
-
-
-        <!-- CONTACTOS -->
-        <div>
-
-            <!-- primera mitad techgear y social media -->
-            <!-- el titulo sobrepuesto azul -->
-            <div class="text-center m-0">
-                <h1 class="text-info azules-bold">CONTACTS</h1>
-                <p>Some ways for you to conntact us</p>
-                <a href="#">
-                    View more
-                    <i class="bi bi-arrow-right"></i>
-                </a>
-            </div>
-
-            <!-- parte de abajo de la letras -->
-            <div class="row m-0">
-                <!-- parte izquierda de social media -->
-                <div class="col-3 bg-white">
-                    <h1>techgear</h1>
-                    <p class="pt-4">Direct Channnels</p>
-                    <p><i class="bi bi-telephone-inbound"></i> +57 123456789</p>
-                    <p><i class="bi bi-envelope"></i> supportstechgear.co</p>
-                    <p class="mt-4">Social media</p>
-                    <div class="social-media">
-                        <i class="bi bi-facebook" id="icono-social"></i>
-                        <i class="bi bi-instagram" id="icono-social"></i>
-                        <i class="bi bi-twitter-x" id="icono-social"></i>
-                        <i class="bi bi-telegram" id="icono-social"></i>
-                        <i class="bi bi-github" id="icono-social"></i>
-                    </div>
-                </div>
-
-                <!-- columna derecha formulario de mensaje -->
-                <div class="col-9">
-                    <div class="col-12">
-                        <p>Feel free to send us your message</p>
-                    </div>
-                    <!-- formulario de data -->
-                    <form action="#" method="#">
-                        <div class="row bg-success justify-content-center">
-
-                            <div class="col-4">
-                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Your name"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="col-4">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    placeholder="your email" aria-describedby="emailHelp">
-                            </div>
-                            <br>
-                            <div class="col-8">
-                                <input type="text" class="form-control col-4 mt-4" id="exampleInputEmail1"
-                                    placeholder="Subject" aria-describedby="emailHelp">
-                            </div>
-                            <br>
-                            <div class="col-8 mt-4">
-                                <div class="input-group">
-
-                                    <textarea class="form-control" aria-label="With textarea" placeholder="Message"
-                                        rows="6"></textarea>
-                                </div>
-
-                                <div class="boton-enviar text-center">
-                                    <button type="submit" class="btn btn-primary mt-4"
-                                        style="width: 290px;">Submit</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <!-- footer -->
-
-        <div class="row footer text-center m-0">
-
-            <!-- products -->
-            <div class="col-3">
-                <h3>Products</h3>
-                <a href="#">Gaming</a><br>
-                <a href="#">Graphic Design</a><br>
-                <a href="#">Office</a><br>
-                <a href="#">Family</a><br>
-                <a href="#">Personalized</a>
-            </div>
-
-            <!-- showrooms -->
-            <div class="col-3">
-                <h3>SHOWROOMS</h3>
-                <a href="#">Showroom Washington, D.C.</a><br>
-                <a href="#">Showroom New York City</a><br>
-                <a href="#">Showroom San Francisco</a><br>
-                <a href="#">Showroom Houston</a><br>
-            </div>
-
-
-            <!-- family members -->
-            <div class="col-3">
-                <h3>FAMILY MEMBERS</h3>
-                <a href="#">Electro Softwares</a><br>
-                <a href="#">Tera Tech Labu</a><br>
-                <a href="#">TC Predator Gaming</a><br>
-                <a href="#">Space Play</a><br>
-                <a href="#">V-Poweration</a>
-                <a href="#">AX3 AI System</a>
-            </div>
-
-            <!-- help center -->
-            <div class="col-3">
-                <h3>HELP CENTER</h3>
-                <a href="#">FAQs</a><br>
-                <a href="#">Terms of use</a><br>
-                <a href="#">Privacy Policy</a><br>
-            </div>
-
-        </div>
-
-        <hr class="mt-5">
-
-        <footer class="mt-5 text-center">COPYRIGHT © 2020 TECHGEAR INC. ALL RIGHTS RESERVED</footer>
-
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+
+    <!-- SERVICES -->
+    <div class="bg-secondary">
+
+        <div class="container servicios-generales text-center">
+
+            <h1 class="text-info azules-bold">SERVICES</h1>
+
+            <div class="contenedor-bold-blanco">
+                <p id="grosor-blanco">We provide more than high-tech products!</p>
+            </div>
+
+            <a href="#" class="text-decoration-none">
+                View more <i class="bi bi-arrow-right"></i>
+            </a>
+
+
+            <div class="row dos-servicios mt-4">
+
+
+                <div class="col-6 contenedor-servicio" id="cuatro-servicios">
+
+                    <div class="row">
+
+                        <div class="col-4">
+                            <img src="sources/img/4-productos/3.svg" class="img-svg">
+                        </div>
+
+                        <div class="col contenedores-conjuntos">
+
+                            <h3 id="blancos">Lifetime Guarantee</h3>
+
+                            <p id="blancos">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-6 contenedor-servicio" id="cuatro-servicios">
+
+                    <div class="row">
+
+                        <div class="col-4">
+                            <img src="sources/img/4-productos/2.svg" class="img-svg">
+                        </div>
+
+                        <div class="col contenedores-conjuntos">
+
+                            <h3 id="blancos">Good Price</h3>
+
+                            <p id="blancos">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row dos-servicios mt-4">
+
+
+                <div class="col-6 contenedor-servicio" id="cuatro-servicios">
+
+                    <div class="row">
+
+                        <div class="col-4">
+                            <img src="sources/img/4-productos/1.svg" class="img-svg">
+                        </div>
+
+                        <div class="col contenedores-conjuntos">
+
+                            <h3 id="blancos">Free Software Updates</h3>
+
+                            <p id="blancos">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-6 contenedor-servicio" id="cuatro-servicios">
+
+                    <div class="row">
+
+                        <div class="col-4">
+                            <img src="sources/img/4-productos/4.svg" class="img-svg">
+                        </div>
+
+                        <div class="col contenedores-conjuntos">
+
+                            <h3 id="blancos">24/7 Support</h3>
+
+                            <p id="blancos">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- MEMBERS -->
+    <div>
+
+        <div class="container miembros text-center">
+
+            <h1 class="text-info azules-bold">MEMBERS</h1>
+
+            <div class="contenedor-bold-blanco">
+                <p id="grosor-blanco">We proudly introduce our powerful members!</p>
+            </div>
+
+            <a href="#" class="text-decoration-none">
+                View more <i class="bi bi-arrow-right"></i>
+            </a>
+
+
+            <div id="carouselExample" class="carousel slide mt-4">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="sources/img/pro-player-predator-esport-gaming-logo-vector.jpg" class="w-25">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="sources/img/1200x630wa.png" class="w-25">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="sources/img/tt.png" class="w-25">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CONTACTS -->
+    <div>
+
+        <div class="container">
+
+            <div class="text-center contactos-conjunto">
+
+                <h1 class="text-info azules-bold">CONTACTS</h1>
+
+                <div class="contenedor-bold-blanco">
+                    <p id="grosor-blanco">Some ways for you to contact us</p>
+                </div>
+
+                <a href="#" class="text-decoration-none text-info">
+                    View more <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="row mt-4">
+
+                <div class="col-3">
+
+                    <p class="tech-contact">techgear</p>
+
+                    <p class="pt-4" id="canales-bold">Direct Channels</p>
+
+                    <div class="">
+                        <p id="info-contact"><i class="bi bi-telephone-inbound text-info"></i> +57 123456789</p>
+
+                        <p id="info-contact"><i class="bi bi-envelope text-info"></i> supportstechgear.co</p>
+
+                    </div>
+
+
+                    <div class="texto-social mt-5">
+                        <p id="canales-bold">Social Media</p>
+                    </div>
+                    <div class="container p-0 hijos-de">
+                        <a href=""><i class="bi bi-facebook text-info"></i></a>
+                        <a href=""><i class="bi bi-instagram ms-4 text-info"></i></a>
+                        <a href=""><i class="bi bi-twitter-x ms-4 text-info"></i></a>
+                        <a href=""><i class="bi bi-telegram ms-4 text-info"></i></a>
+                        <a href=""><i class="bi bi-github ms-4 text-info"></i></a>
+                    </div>
+
+                </div>
+
+
+                <div class="col-9 py-4">
+
+                    <form>
+
+                        <div class="container-fluid">
+
+                            <!-- Columna central -->
+                            <div class="row justify-content-center">
+
+                                <div class="col-8">
+
+
+                                    <!-- TEXTO -->
+                                    <p class="mb-3 text-start" id="text-white">
+                                        Feel free to send us your message
+                                    </p>
+
+
+                                    <!-- NOMBRE / EMAIL -->
+                                    <div class="row g-3">
+
+                                        <div class="col-6">
+                                            <input type="text" class="form-control" placeholder="Your name">
+                                        </div>
+
+                                        <div class="col-6">
+                                            <input type="email" class="form-control" placeholder="Your email">
+                                        </div>
+
+                                    </div>
+
+
+                                    <!-- SUBJECT -->
+                                    <div class="mt-3">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div>
+
+
+                                    <!-- MESSAGE -->
+                                    <div class="mt-3">
+                                        <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+                                    </div>
+
+
+                                    <!-- BUTTON -->
+                                    <div class="text-center mt-4">
+
+                                        <button type="submit" class="btn btn-info text-white px-5">
+                                            Submit
+                                        </button>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="container mt-5">
+
+        <div class="row footer text-center text-footer">
+
+
+            <div class="col-3 alinear-txt-izq">
+
+                <h3 id="peso-footer">PRODUCTS</h3>
+
+                <a href="#">Gaming</a><br>
+                <a>Graphic Design</a><br>
+                <a>Office</a><br>
+                <a>Family</a><br>
+                <a>Personalized</a>
+
+            </div>
+
+
+            <div class="col-3 alinear-txt-izq">
+
+                <h3 id="peso-footer">SHOWROOMS</h3>
+
+                <a>Washington</a><br>
+                <a>New York</a><br>
+                <a>San Francisco</a><br>
+                <a>Houston</a>
+
+            </div>
+
+
+            <div class="col-3 alinear-txt-izq">
+
+                <h3 id="peso-footer">FAMILY</h3>
+
+                <a>Electro</a><br>
+                <a>Tera</a><br>
+                <a>TC Predator</a><br>
+                <a>Space</a>
+
+            </div>
+
+
+            <div class="col-3 alinear-txt-izq">
+
+                <h3 id="peso-footer">HELP</h3>
+
+                <a>FAQs</a><br>
+                <a>Terms</a><br>
+                <a>Privacy</a>
+
+            </div>
+
+        </div>
+
+
+        <hr class="mt-5">
+
+
+        <footer class="mt-4 text-center">
+            COPYRIGHT © 2020 TECHGEAR INC
+        </footer>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
